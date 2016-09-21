@@ -1,12 +1,8 @@
 namespace App {
     export class Beroende {
-        namn:string;
+        namn: string;
         constructor() {
-            this.namn = 'ABC'
-        }
-
-        Skriv(medd) {
-            console.log('Meddelande från Beroende: ',medd);
+            this.namn = 'ABC';
         }
 
         SkapaElement(text) {

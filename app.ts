@@ -7,13 +7,16 @@ require.config({
 require([
     'jquery',
     'beroende',
+    'dependency',
 ], (
     jQuery,
-    beroende
+    beroende,
+    dependency
 ) => {
 
     let b = new App.Beroende();
-    b.Skriv('hola amigos');
+    let d = new App.Dependency();
+    d.Skriv('hola amigos');
     b.SkapaElement('hello world');
 
 });

@@ -6,8 +6,10 @@ require.config({
 require([
     'jquery',
     'beroende',
-], function (jQuery, beroende) {
+    'dependency',
+], function (jQuery, beroende, dependency) {
     var b = new App.Beroende();
-    b.Skriv('hola amigos');
+    var d = new App.Dependency();
+    d.Skriv('hola amigos');
     b.SkapaElement('hello world');
 });
