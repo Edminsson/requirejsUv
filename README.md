@@ -13,6 +13,8 @@ The simplest way to make things work is to do the same thing that jQuery skipped
 
 I also tried to declare jquery in the paths of require.config. It works but then jquery gets loaded twice.
 
+Among this examples there is a typescript experiment with "export = blabla" to make an amd module when transpiled.
+
 
 ### To install
 - npm install
