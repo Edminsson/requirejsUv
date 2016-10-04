@@ -1,15 +1,21 @@
-require.config({
-    paths: {
-        'jquery': '//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min'
-    }
+// require.config({
+//     paths: {
+//         'jquery': '//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min'
+//     }
+// });
+
+define('jquery', [], function() {
+    return jQuery;
 });
 
 require([
-    'jquery',
+    'beroendeAvDenExternaModulen',
+    'beroendeAvjQuery',
     'beroende',
     'dependency',
 ], (
-    jQuery,
+    badem,
+    bajq,
     beroende,
     dependency
 ) => {
