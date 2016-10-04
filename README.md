@@ -14,10 +14,10 @@ The simplest way to make things work is to do the same thing that jQuery skipped
 I also tried to declare jquery in the paths of require.config. It works but then jquery gets loaded twice.
 
 
-To install
+### To install
 - npm install
 - tsd install
 - use http-server to load index.html
 
-To build (since gulp is not installed)
+### To build (since gulp is not installed)
 - tsc
